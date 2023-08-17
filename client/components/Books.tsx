@@ -3,7 +3,10 @@ import booksByGenre from '../data/books'
 
 export default function Books() {
   const { genre } = useParams()
-  console.log(genre)
+
+  if (!genre) {
+    return <p>Please specify a genre</p>
+  }
 
   // Gets an array of books
   const getBooksByGenre = booksByGenre[genre]
@@ -13,5 +16,10 @@ export default function Books() {
     <li key={bookTitle}>{bookTitle}</li>
   ))
 
-  return <ul>{listOfBooks}</ul>
+  return (
+    <div>
+      <h2>{genre} Book Titles</h2>
+      <ul>{listOfBooks}</ul>
+    </div>
+  )
 }
