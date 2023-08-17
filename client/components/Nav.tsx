@@ -14,7 +14,7 @@ function Nav() {
         {booksData.map((book, index) => {
           return (
             <li key={index}>
-              <Link to={`/genre/${book}`}>{book}</Link>
+              <Link to={`/books/${book}`}>{book}</Link>
             </li>
           )
         })}
