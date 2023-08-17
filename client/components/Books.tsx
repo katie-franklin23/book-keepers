@@ -3,6 +3,7 @@ import booksByGenre from '../data/books'
 
 export default function Books() {
   const { genre } = useParams()
+  console.log(genre)
 
   // Gets an array of books
   const getBooksByGenre = booksByGenre[genre]
