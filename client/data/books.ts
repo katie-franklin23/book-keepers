@@ -44,4 +44,4 @@ const booksByGenre = {
 };
 
 
-export default 
+export default booksByGenre
