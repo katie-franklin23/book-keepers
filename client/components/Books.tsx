@@ -19,7 +19,11 @@ export default function Books() {
   return (
     <div>
       <h2>{genre} Book Titles</h2>
-      <img src={`/images/${genre}.jpeg`} alt={`${genre} title`} />
+      <img
+        className="genreImages"
+        src={`/images/${genre}.jpeg`}
+        alt={`${genre} title`}
+      />
       <ul>{listOfBooks}</ul>
     </div>
   )

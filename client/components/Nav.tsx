@@ -11,6 +11,7 @@ function Nav() {
         <li key="item">
           <Link to="/">Home</Link>
         </li>
+        <br />
         {booksData.map((book, index) => {
           return (
             <li key={index}>

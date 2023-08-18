@@ -32,7 +32,7 @@ const booksByGenre: BooksByGenre = {
     'Gone with the Wind',
   ],
   Horror: ['The Shining', 'Dracula', 'The Exorcist', 'It', 'Frankenstein'],
-  'Non-Fiction': [
+  'Non Fiction': [
     'Sapiens: A Brief History of Humankind',
     'Educated',
     'The Immortal Life of Henrietta Lacks',
