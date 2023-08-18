@@ -7,6 +7,7 @@ import {
 import App from './components/App.tsx'
 import Home from './components/Home.tsx'
 import Books from './components/Books.tsx'
+import Recommendations from './components/Recommendations.tsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
