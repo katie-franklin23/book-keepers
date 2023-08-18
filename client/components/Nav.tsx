@@ -19,6 +19,9 @@ function Nav() {
             </li>
           )
         })}
+        <li key="recommendation">
+          <Link to="/recommendations">Recommendation</Link>
+        </li>
       </ul>
     </div>
   )

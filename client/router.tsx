@@ -14,6 +14,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
       <Route path="books/:genre" element={<Books />} />
+      <Route path="recommendations" element={<Recommendations />} />
     </Route>
   )
 )

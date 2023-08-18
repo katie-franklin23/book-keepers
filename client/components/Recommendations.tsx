@@ -1,5 +1,10 @@
 import { useState } from 'react'
 import AddRecommendationForm from './Addrecommendationform'
+interface Recommendation {
+  recommendation: string
+  genre: string
+  author: string
+}
 
 function Recommendation() {
   const [recommendations, setRecommendation] = useState([
@@ -12,10 +17,10 @@ function Recommendation() {
 
   const bookArray = recommendations.map((book) => {
     return (
-      <li key={book}>
-        <p>Recommendation</p>
-        <p>Genre</p>
-        <p>Author</p>
+      <li key={book.recommendation}>
+        <h3>Recommendation: {book.recommendation}</h3>
+        <p>Genre: {book.genre}</p>
+        <p>Author: {book.author}</p>
       </li>
     )
   })

@@ -5,15 +5,15 @@ interface Props {
 }
 
 interface Recommendation {
-  Recommendation: string
-  Genre: string
-  Author: string
+  recommendation: string
+  genre: string
+  author: string
 }
 
 const initialData = {
-  Recommendation: '',
-  Genre: '',
-  Author: '',
+  recommendation: '',
+  genre: '',
+  author: '',
 }
 
 function AddRecommendationForm(props: Props) {
@@ -45,7 +45,7 @@ function AddRecommendationForm(props: Props) {
         id="recommendation"
         name="recommendation"
         type="text"
-        value={formData.Recommendation}
+        value={formData.recommendation}
         onChange={handleChange}
       />
       <label htmlFor="genre">Genre </label>
@@ -53,7 +53,7 @@ function AddRecommendationForm(props: Props) {
         id="genre"
         name="genre"
         type="text"
-        value={formData.Genre}
+        value={formData.genre}
         onChange={handleChange}
       />
       <label htmlFor="author">Author </label>
@@ -61,7 +61,7 @@ function AddRecommendationForm(props: Props) {
         id="author"
         name="author"
         type="text"
-        value={formData.Author}
+        value={formData.author}
         onChange={handleChange}
       />
       <button type="submit">Add</button>
