@@ -1,6 +1,6 @@
 # Book-keepers website
 
-The project, a collaborative effort during a Dev Academy group project, involves the development of a React-based application. The main functionality allows users to contribute book recommendations based on selected genres.
+This project, a collaborative effort during a Dev Academy group project, involves the development of a React-based application. The main functionality allows users to contribute book recommendations based on selected genres.
 
 http://book-keepers.devacademy.nz/
 
