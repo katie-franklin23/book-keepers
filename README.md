@@ -1,4 +1,4 @@
-# React Boilerplate
+# Charlotte's Web
 
 ## Packages Included
 
