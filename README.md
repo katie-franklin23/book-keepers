@@ -4,6 +4,13 @@ The project, a collaborative effort during a Dev Academy group project, involves
 
 http://book-keepers.devacademy.nz/
 
+## Built using:
+HTML
+CSS
+React
+TypeScript
+JavaScript
+
 ## Setup
 
 - [ ] Clone this repo, navigate to it, install packages, and start the server with `npm run dev`
