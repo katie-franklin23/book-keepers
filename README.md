@@ -5,11 +5,11 @@ The project, a collaborative effort during a Dev Academy group project, involves
 http://book-keepers.devacademy.nz/
 
 ## Built using:
-HTML
-CSS
-React
-TypeScript
-JavaScript
+- HTML
+- CSS
+- React
+- TypeScript
+- JavaScript
 
 ## Setup
 
